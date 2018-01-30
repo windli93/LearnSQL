@@ -35,15 +35,8 @@ Transaction Control (TCL) statements are used to manage the changes made by DML 
 上面的比较官方，下面自己的理解和大多数人通俗易懂的形式。
 
 对于SQL语言，有两个组成部分：
-
-
-
 DML（data manipulation language）：它们是SELECT、UPDATE、INSERT、DELETE，就象它的名字一样，这4条命令是用来对数据库里的数据进行操作的语言。
-
-
-
 DDL（data definition language）：DDL比DML要多，主要的命令有CREATE、ALTER、DROP等，DDL主要是用在定义或改变database的结构，数据类型，表之间的链接和约束等初始化工作上，他们大多在建立表时使用。
-
 
 
 SQL语言共分为四大类：
@@ -55,7 +48,6 @@ SQL语言共分为四大类：
 数据定义语言DDL，
 
 数据控制语言DCL。
-
 
 
 1 数据查询语言DQL
@@ -91,7 +83,6 @@ WHERE <查询条件>
 CREATE TABLE/VIEW/INDEX/SYN/CLUSTER
 
 
-
 4 数据控制语言DCL
 
 数据控制语言DCL用来授予或回收访问数据库的某种特权，并控制
@@ -120,29 +111,27 @@ SQL>ROLLBACK;
 
 别说明这三种类型。
 
-      (1) 显式提交
+  (1) 显式提交
 
-      用COMMIT命令直接完成的提交为显式提交。其格式为：
+  用COMMIT命令直接完成的提交为显式提交。其格式为：
 
-      SQL>COMMIT；
+  SQL>COMMIT；
 
-      (2) 隐式提交
+  (2) 隐式提交
 
-      用SQL命令间接完成的提交为隐式提交。这些命令是：
+  用SQL命令间接完成的提交为隐式提交。这些命令是：
 
-      ALTER，AUDIT，COMMENT，CONNECT，CREATE，DISCONNECT，DROP，
+  ALTER，AUDIT，COMMENT，CONNECT，CREATE，DISCONNECT，DROP，
 
-      EXIT，GRANT，NOAUDIT，QUIT，REVOKE，RENAME。
+  EXIT，GRANT，NOAUDIT，QUIT，REVOKE，RENAME。
 
-      (3) 自动提交
+  (3) 自动提交
 
-      若把AUTOCOMMIT设置为ON，则在插入、修改、删除语句执行后，
+  若把AUTOCOMMIT设置为ON，则在插入、修改、删除语句执行后，
 
-      系统将自动进行提交，这就是自动提交。其格式为：
+  系统将自动进行提交，这就是自动提交。其格式为：
 
-      SQL>SET AUTOCOMMIT ON；
-
-
+  SQL>SET AUTOCOMMIT ON；
 
 
 ### DDL,DML,DCL 之间的区别
