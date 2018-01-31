@@ -18,3 +18,8 @@
 - 执行cmd命令行，执行 `sqlplus sys/change_on_install as sysdba` 以超级用户SYS账户密码登录
 - 执行cmd命令行，执行 `sqlplus system/manager as sysdba` 以超级用户SYS无密码登录
 - 执行cmd命令行，执行 `sqlplus scott/tiger as sysdba` 用户密码登录
+
+#### SQL经典问题
+- [查看Oracle执行计划](https://www.cnblogs.com/Dreamer-1/p/6076440.html)
+- [truncat,delete,drop的区别](http://blog.csdn.net/ws0513/article/details/49980547)
+- [delte和alter的区别](http://blog.csdn.net/datouniao1/article/details/52742584)

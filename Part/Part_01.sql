@@ -7,6 +7,8 @@ conn system/manager as sysdba;
 conn scott/tiger;
 -- 以sys用户登录，省略用户名和密码超级管理员
 conn / as sysdba;
+-- 解锁账户
+alter user scott account unlock;
 -- 创建表空间
 -- CREATE TABLESPACE tablespaceName
 --  DATAFILE 'filename'
