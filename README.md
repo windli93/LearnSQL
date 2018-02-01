@@ -23,3 +23,4 @@
 - [查看Oracle执行计划](https://www.cnblogs.com/Dreamer-1/p/6076440.html)
 - [truncat,delete,drop的区别](http://blog.csdn.net/ws0513/article/details/49980547)
 - [delte和alter的区别](http://blog.csdn.net/datouniao1/article/details/52742584)
+- [Oracle函数和存储过程的区别](https://www.cnblogs.com/jmj1993/p/7625252.html)
